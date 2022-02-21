@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyTestAPI", "RickAndMortyTestAPI.csproj", "{F148CF3D-C4BD-4E25-B427-344A808FA3DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty.backend", "..\RickAndMorty.backend\RickAndMorty.backend.csproj", "{CF45CDAE-C7FB-460B-96EF-CE364BB1DEB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F148CF3D-C4BD-4E25-B427-344A808FA3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F148CF3D-C4BD-4E25-B427-344A808FA3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F148CF3D-C4BD-4E25-B427-344A808FA3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F148CF3D-C4BD-4E25-B427-344A808FA3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF45CDAE-C7FB-460B-96EF-CE364BB1DEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF45CDAE-C7FB-460B-96EF-CE364BB1DEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF45CDAE-C7FB-460B-96EF-CE364BB1DEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF45CDAE-C7FB-460B-96EF-CE364BB1DEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C14F2B46-95D6-4887-9F48-F4200FA506EF}
+	EndGlobalSection
+EndGlobal

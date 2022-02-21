@@ -1,0 +1,35 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Mobile.master.cs" Inherits="RickAndMortyTestAPI.Site_Mobile" %>
+<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width" />
+     <title><%: Page.Title %> - Rick and Morty API</title>
+    
+    <!--CSS-->
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+
+    <!--JS-->
+    <script src="Scripts/ScriptMaster.js"></script>
+    <script src="Scripts/jquery-3.6.0.js"></script>
+
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <nav class="navbar fixed-top navbar-dark bg-dark border-bottom">
+            <a class="navbar-brand" href="#">Prueba técnica por Roberto Abad - Consulta de personajes</a>
+        </nav>
+        <div class="container-fluid body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - TechTest by RobertSoft</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
